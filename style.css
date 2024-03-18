@@ -36,6 +36,13 @@ body {
     padding: 0.3rem 2rem;
 }
 
+.btn-white {
+    background-color: white;
+    color: #222;
+    border: 1px solid #222;
+    padding: 0.3rem 2rem;
+}
+
 a {
     text-decoration: none;
 }
@@ -43,6 +50,7 @@ a {
 /* header  */
 
 header {
+    background-color: white;
     width: 100%;
     position: fixed;
     padding: 0 1rem;
@@ -65,4 +73,126 @@ header {
     color: black;
 }
 
+/* main  */
 
+/* sezione jumbotron  */
+
+.background-full-width {
+    background-color: aqua;
+    padding-top: 8rem;
+}
+
+.jumbo-container {
+    height: 60vh;
+    background-color: red;
+}
+
+.column-jumbo-left {
+    height: 100%;
+    width: 40%;
+    background-color: blue;
+    float: left;
+}
+
+.column-jumbo-right {
+    height: 110%;
+    width: 60%;
+    background-image: url(https://picsum.photos/300/200);
+    background-size: cover;
+    float: left;
+}
+
+/* sezione servizi prezzi  */
+
+.column-listino {
+    border: 1px solid black;
+}
+
+.header-listino {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.column-listino li {
+    list-style: none;
+}
+
+.box-grande-listino {
+    border: 1px solid black;
+}
+
+.column-left-box-grande {
+    width: 70%;
+}
+
+.column-right-box-grande {
+    width: 30%;
+}
+
+/* sezione foto e testo */
+
+.column-image {
+    width: 60%;
+}
+
+.column-description {
+    width: 40%;
+}
+
+/* sezione 6 colonne su 2 righe  */
+
+.box-feature {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.column-feature > img {
+    text-align: center;
+}
+
+.column-feature {
+    width: 30%;
+}
+
+/* sezione testo e link  */
+
+/* sezione box quadrati */
+
+.box-partner {
+    height: 60vh;
+}
+
+.column-partner-left,
+.column-partner-center,
+.column-partner-right {
+    border: 1px solid black;
+    flex-grow: 1;
+    height: 100%;
+}
+
+.square {
+    height: 50%;
+    width: 50%;
+    border: 1px solid red;
+}
+
+.column-partner-left,
+.column-partner-right {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* sezione testo e call to action due colonne */
+
+.box-call {
+    background-color: #B4D0E7;
+}
+
+/* sezione domande */
+
+/* footer */
+
+footer {
+    background-color: black;
+    color: white;
+}
