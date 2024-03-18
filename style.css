@@ -5,3 +5,64 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: sans-serif;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxed-70 {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.boxed-60 {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.padding-top-bottom {
+    padding: 4rem 0;
+}
+
+.btn-blue {
+    background-color: blue;
+    color: white;
+    padding: 0.3rem 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header  */
+
+header {
+    width: 100%;
+    position: fixed;
+    padding: 0 1rem;
+}
+
+.logo {
+    display: block;
+}
+
+.column-nav-left,
+.column-nav-right {
+    gap: 1rem;
+}
+
+.link {
+    padding: 2rem 0;
+}
+
+.link a {
+    color: black;
+}
+
+
