@@ -17,3 +17,106 @@
 .faq:hover i {
     transform: rotate(180deg);
 }
+
+/* hover bordi sui quadrati  */
+
+.square-small:hover {
+    box-shadow: inset 0 0 15px white;
+}
+
+/* cambio dell'azienda in primo piano con click sui pallini */
+
+.hover {
+    text-align: center;
+}
+
+.designit,
+.arizona,
+.florida,
+.topps,
+.relief,
+.corp,
+.planet,
+.channel {
+    text-align: left;
+}
+
+#designit,
+#arizona,
+#florida,
+#topps,
+#relief,
+#corp,
+#planet,
+#channel {
+    margin: 0 5px 1.5rem 5px;
+}
+
+.arizona,
+.florida,
+.topps,
+.relief,
+.corp,
+.planet,
+.channel {
+    display: none;
+}
+
+#arizona:active ~ .arizona {
+    display: block;
+}
+#arizona:active ~ .designit {
+    display: none;
+}
+
+#florida:active ~ .florida {
+    display: block;
+}
+#florida:active ~ .designit {
+    display: none;
+}
+
+#topps:active ~ .topps {
+    display: block;
+}
+#topps:active ~ .designit {
+    display: none;
+}
+
+#relief:active ~ .relief {
+    display: block;
+}
+#relief:active ~ .designit {
+    display: none;
+}
+
+#corp:active ~ .corp {
+    display: block;
+}
+#corp:active ~ .designit {
+    display: none;
+}
+
+#planet:active ~ .planet {
+    display: block;
+}
+#planet:active ~ .designit {
+    display: none;
+}
+
+#channel:active ~ .channel {
+    display: block;
+}
+#channel:active ~ .designit {
+    display: none;
+}
+
+.black:active {
+    background-color: black;
+    border-radius: 50%;
+}
+
+
+
+
+
