@@ -1,3 +1,6 @@
+/* hover sui link nella nav  */
+
 .link:hover {
     border-bottom: 1px inset black;
 }
+

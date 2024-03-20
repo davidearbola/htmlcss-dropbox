@@ -131,6 +131,10 @@ h1 {
     font-size: 3rem;
 }
 
+.column-jumbo-left a {
+    color: black;
+}
+
 /* sezione servizi prezzi  */
 
 label[for="1"] {
