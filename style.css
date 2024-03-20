@@ -144,51 +144,66 @@ label[for="1"] {
 .card-listino {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    line-height: 2rem;
+    line-height: 1.5rem;
     flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
 }
 
 .column-listino {
-    border: 1px solid black;
+    border: 1px solid lightgray;
     width: 260px;
 }
 
 .column-listino p,
-.column-listino li,
+.column-listino .icona,
+.column-listino .descrizione,
 .column-listino a {
     font-size: 0.8rem;
 }
 
 .header-listino {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgray;
     text-align: center;
 }
 
-.header-listino,
 .content-listino,
 .cta-listino,
 .footer-listino {
     padding: 1rem;
 }
 
-.cta-listino {
-    text-align: center;
+.list-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 2rem;
 }
 
-.content-listino ul {
-    margin-top: 2rem;
+.list-flex-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.icona {
+    width: 5%;
+}
+
+.descrizione {
+    width: 90%;
+}
+
+.cta-listino {
+    text-align: center;
 }
 
 .footer-listino hr {
     margin: 2rem 0;
 }
 
-.column-listino li {
-    list-style: none;
-}
-
 .box-grande-listino {
-    border: 1px solid black;
+    border: 1px solid lightgray;
     line-height: 2rem;
 }
 

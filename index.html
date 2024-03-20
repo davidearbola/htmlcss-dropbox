@@ -48,24 +48,27 @@
         <section id="prima-section" class="padding-top-bottom">
             <div class="boxed-60">
                 <h2>Trova il piano business che fa per te</h2>
-                <input type="radio" value="1">
+                <input type="radio" name="scelta-fatturazione" value="1">
                 <label for="1">Fatturazione mensile</label>
-                <input type="radio" value="2">
+                <input type="radio" name="scelta-fatturazione" value="2">
                 <label for="2">Fatturazione annuale</label>
-                <div class="container-flex card-listino">
+                <div class="card-listino">
                     <div class="column-listino">
                         <div class="header-listino">
-                            <p><i class="fa-solid fa-arrow-down"></i> Singolo</p>
+                            <p><i class="fa-solid fa-user"></i></i> Singolo</p>
                         </div>
                         <div class="content-listino">
                             <h4>Professional</h4>
                             <p>12 &euro;</p>
                             <p>/mese</p>
-                            <ul>
-                                <li><i class="fa-solid fa-arrow-down"></i>1 utente</li>
-                                <li><i class="fa-solid fa-arrow-down"></i>5 TB di spazio di archiviazione sicuro</li>
-                                <li><i class="fa-solid fa-arrow-down"></i>Funzioni di produttività premium e condivisione file semplice e sicura</li>
-                            </ul>
+                            <div class="list-flex">
+                                <div class="icona"><i class="fa-solid fa-user"></i></div>
+                                <div class="descrizione"><span>1 Utente</span></div>
+                                <div class="icona"><i class="fa-solid fa-folder"></i></div>
+                                <div class="descrizione"><span>5 TB di spazio di archiviazione</span></div>
+                                <div class="icona"><i class="fa-solid fa-share-nodes"></i></div>
+                                <div class="descrizione"><span>Funzioni di produttività premium e condivisione file semplice e sicura</span></div>
+                            </div>
                         </div>
                         <div class="cta-listino">
                             <a class="btn-blue" href="#">Prova gratis per 30 giorni</a>
@@ -74,25 +77,30 @@
                             <p>oppure <a href="#">acquista ora</a></p>
                             <hr class="hr-small">
                             <h5>Punti salienti del piano</h5>
-                            <ul>
-                                <li><i class="fa-solid fa-arrow-down"></i>Invia file fino a 100 GB</li>
-                                <li><i class="fa-solid fa-arrow-down"></i>Cartelle offline su dispositivi mobili</li>
-                            </ul>
+                            <div class="list-flex-footer">
+                                <div class="icona"><i class="fa-solid fa-check" style="color: #63E6BE;"></i></div>
+                                <div class="descrizione"><span>Invia file fino a 100 GB</span></div>
+                                <div class="icona"><i class="fa-solid fa-check" style="color: #63E6BE;"></i></div>
+                                <div class="descrizione"><span>Cartelle offline su dispositivi mobili</span></div>
+                            </div>
                         </div>
                     </div>
                     <div class="column-listino">
                         <div class="header-listino">
-                            <p><i class="fa-solid fa-arrow-down"></i> Singolo</p>
+                            <p><i class="fa-solid fa-users"></i></i> Team</p>
                         </div>
                         <div class="content-listino">
-                            <h4>Professional</h4>
-                            <p>12 &euro;</p>
-                            <p>/mese</p>
-                            <ul>
-                                <li><i class="fa-solid fa-arrow-down"></i>1 utente</li>
-                                <li><i class="fa-solid fa-arrow-down"></i>5 TB di spazio di archiviazione sicuro</li>
-                                <li><i class="fa-solid fa-arrow-down"></i>Funzioni di produttività premium e condivisione file semplice e sicura</li>
-                            </ul>
+                            <h4>Advanced</h4>
+                            <p>18 &euro;</p>
+                            <p>utente/mese</p>
+                            <div class="list-flex">
+                                <div class="icona"><i class="fa-solid fa-user"></i></div>
+                                <div class="descrizione"><span>1 Utente</span></div>
+                                <div class="icona"><i class="fa-solid fa-folder"></i></div>
+                                <div class="descrizione"><span>5 TB di spazio di archiviazione</span></div>
+                                <div class="icona"><i class="fa-solid fa-share-nodes"></i></div>
+                                <div class="descrizione"><span>Funzioni di produttività premium e condivisione file semplice e sicura</span></div>
+                            </div>
                         </div>
                         <div class="cta-listino">
                             <a class="btn-blue" href="#">Prova gratis per 30 giorni</a>
@@ -101,25 +109,36 @@
                             <p>oppure <a href="#">acquista ora</a></p>
                             <hr class="hr-small">
                             <h5>Punti salienti del piano</h5>
-                            <ul>
-                                <li><i class="fa-solid fa-arrow-down"></i>Invia file fino a 100 GB</li>
-                                <li><i class="fa-solid fa-arrow-down"></i>Cartelle offline su dispositivi mobili</li>
-                            </ul>
+                            <div class="list-flex-footer">
+                                <div class="icona"><i class="fa-solid fa-check" style="color: #63E6BE;"></i></div>
+                                <div class="descrizione"><span>Nessun limite di spazio per i file</span></div>
+                                <div class="icona"><i class="fa-solid fa-check" style="color: #63E6BE;"></i></div>
+                                <div class="descrizione"><span>Cartelle offline su dispositivi mobili</span></div>
+                                <div class="icona"><i class="fa-solid fa-check" style="color: #63E6BE;"></i></div>
+                                <div class="descrizione"><span>Risparmio del 50% sulle iscrizioni singole</span></div>
+                                <div class="icona"><i class="fa-solid fa-check" style="color: #63E6BE;"></i></div>
+                                <div class="descrizione"><span>Possibilità di inserire nuovi membri del team</span></div>
+                                <div class="icona"><i class="fa-solid fa-check" style="color: #63E6BE;"></i></div>
+                                <div class="descrizione"><span>Gestione dei permessi in base ai ruoli</span></div>
+                            </div>
                         </div>
                     </div>
                     <div class="column-listino">
                         <div class="header-listino">
-                            <p><i class="fa-solid fa-arrow-down"></i> Singolo</p>
+                            <p><i class="fa-solid fa-building"></i> Azienda</p>
                         </div>
                         <div class="content-listino">
-                            <h4>Professional</h4>
-                            <p>12 &euro;</p>
-                            <p>/mese</p>
-                            <ul>
-                                <li><i class="fa-solid fa-arrow-down"></i>1 utente</li>
-                                <li><i class="fa-solid fa-arrow-down"></i>5 TB di spazio di archiviazione sicuro</li>
-                                <li><i class="fa-solid fa-arrow-down"></i>Funzioni di produttività premium e condivisione file semplice e sicura</li>
-                            </ul>
+                            <h4>Enterprises</h4>
+                            <p>Contattaci</p>
+                            <p>-</p>
+                            <div class="list-flex">
+                                <div class="icona"><i class="fa-solid fa-user"></i></div>
+                                <div class="descrizione"><span>1 Utente</span></div>
+                                <div class="icona"><i class="fa-solid fa-folder"></i></div>
+                                <div class="descrizione"><span>5 TB di spazio di archiviazione</span></div>
+                                <div class="icona"><i class="fa-solid fa-share-nodes"></i></div>
+                                <div class="descrizione"><span>Funzioni di produttività premium e condivisione file semplice e sicura</span></div>
+                            </div>
                         </div>
                         <div class="cta-listino">
                             <a class="btn-blue" href="#">Prova gratis per 30 giorni</a>
@@ -128,10 +147,14 @@
                             <p>oppure <a href="#">acquista ora</a></p>
                             <hr class="hr-small">
                             <h5>Punti salienti del piano</h5>
-                            <ul>
-                                <li><i class="fa-solid fa-arrow-down"></i>Invia file fino a 100 GB</li>
-                                <li><i class="fa-solid fa-arrow-down"></i>Cartelle offline su dispositivi mobili</li>
-                            </ul>
+                            <div class="list-flex-footer">
+                                <div class="icona"><i class="fa-solid fa-check" style="color: #63E6BE;"></i></div>
+                                <div class="descrizione"><span>Cartelle offline su dispositivi mobili</span></div>
+                                <div class="icona"><i class="fa-solid fa-check" style="color: #63E6BE;"></i></div>
+                                <div class="descrizione"><span>Servizio assistenza 24/h</span></div>
+                                <div class="icona"><i class="fa-solid fa-check" style="color: #63E6BE;"></i></div>
+                                <div class="descrizione"><span>Possibilità di personalizzazione totale</span></div>
+                            </div>
                         </div>
                     </div>
                 </div>
