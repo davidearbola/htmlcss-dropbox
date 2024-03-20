@@ -341,6 +341,10 @@ label[for="1"] {
 
 /* sezione domande */
 
+.box-faq {
+    min-height: 100vh;
+}
+
 .column-faq-left {
     width: 90%;
 }

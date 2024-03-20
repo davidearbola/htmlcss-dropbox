@@ -4,3 +4,16 @@
     border-bottom: 1px inset black;
 }
 
+/* hover sezione domande compare il testo della risposta */
+
+.faq p {
+    display: none;
+}
+
+.faq:hover p {
+    display: block;
+}
+
+.faq:hover i {
+    transform: rotate(180deg);
+}
