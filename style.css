@@ -343,3 +343,17 @@ footer {
     background-color: black;
     color: white;
 }
+
+.column-footer h4 {
+    margin-bottom: 1rem;
+}
+
+.column-footer li {
+    margin: 0.5rem 0;
+    list-style: none;
+}
+
+footer hr {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
