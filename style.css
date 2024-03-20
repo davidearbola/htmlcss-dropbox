@@ -377,3 +377,11 @@ footer hr {
     margin-top: 5rem;
     margin-bottom: 2rem;
 }
+
+footer li {
+    font-size: 0.8rem;
+}
+
+footer span {
+    font-size: 0.7rem;
+}
