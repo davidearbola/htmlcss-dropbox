@@ -20,6 +20,12 @@ header {
 
 nav {
     min-height: 4rem;
+    flex-wrap: wrap;
+}
+
+.link {
+    height: 4rem;
+    line-height: 4rem;
 }
 
 .link a {
@@ -160,7 +166,6 @@ label[for="1"] {
 }
 
 .column-right-box-grande {
-    /* width: 40%; */
     padding: 1rem;
     text-align: right;
 }
