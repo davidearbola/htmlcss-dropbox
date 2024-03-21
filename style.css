@@ -18,9 +18,8 @@ header {
     gap: 2rem;
 }
 
-.link {
-    height: 4rem;
-    line-height: 4rem;
+nav {
+    min-height: 4rem;
 }
 
 .link a {
@@ -71,9 +70,6 @@ h1 {
 .column-jumbo-left i {
     margin-top: 2rem;
     font-size: 3rem;
-}
-
-.column-jumbo-left a {
     color: black;
 }
 
@@ -151,6 +147,7 @@ label[for="1"] {
 
 .box-grande-listino .container-flex {
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .column-left-box-grande h5 {
@@ -158,12 +155,12 @@ label[for="1"] {
 }
 
 .column-left-box-grande {
-    width: 70%;
+    width: 60%;
     padding: 1rem;
 }
 
 .column-right-box-grande {
-    width: 30%;
+    /* width: 40%; */
     padding: 1rem;
     text-align: right;
 }
@@ -268,6 +265,10 @@ label[for="1"] {
 
 .column-call-left {
     width: 60%;
+}
+
+.column-call-left h2  {
+    color: purple;
 }
 
 .column-call-right {
