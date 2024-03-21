@@ -224,7 +224,6 @@ label[for="1"] {
   .column-square-right {
     height: auto;
     width: calc(100% / 3);
-    aspect-ratio: 1/1;
     display: flex;
     flex-wrap: wrap;
   }
@@ -232,18 +231,25 @@ label[for="1"] {
   .column-square-center {
     height: auto;
     width: calc(100% / 3);
-    aspect-ratio: 1/1;
     padding: 2rem;
   }
   
   .square-small {
     width: 50%;
     height: auto;
-    aspect-ratio: 1/1;
     display: flex;
     justify-content: center;
     align-items: center;
   }  
+
+  @supports (aspect-ratio: 1/1) {
+    .column-square-left,
+    .column-square-center,
+    .column-square-right,
+    .square-small {
+        aspect-ratio: 1/1;
+    }
+  }
 
   .logo-partner {
     width: 60%;
